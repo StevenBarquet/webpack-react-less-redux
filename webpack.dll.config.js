@@ -4,7 +4,7 @@ const webpack = require('webpack'); // hot reloader plugin
 // equivalente a export default
 module.exports = {
   entry: {
-    modules: ['react', 'react-dom']
+    modules: ['react', 'react-dom', 'react-router-dom']
   },
   mode: 'production',
   output: {
