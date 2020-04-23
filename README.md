@@ -3,7 +3,7 @@ template ready to work and deploy with a javascript proyect configurated with we
 
 Productive issues: None, all fixed and working for production
 
-Development issues: The reload of the page crash when attempt to access a url diferent of "/"
+Development issues: None, all fixed and working for production
 
 Other issues:
 -Redux needs a more dynamic structure for combine reducers
