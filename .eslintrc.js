@@ -63,6 +63,7 @@ module.exports = {
       }
     ],
     "no-console": 0,
+    "no-plusplus": 0,
     "import/prefer-default-export": 0,
     "import": 0,
     "import/no-unresolved": 0,
@@ -74,7 +75,7 @@ module.exports = {
     "import/extensions": 0,
     "no-underscore-dangle": 0,
     "consistent-return": 0,
-    "react/display-name": 1,
+    "react/display-name": 0,
     "react/no-array-index-key": 0,
     "react/react-in-jsx-scope": 0,
     "global-require": 0,
@@ -136,8 +137,8 @@ module.exports = {
         ]
       }
     ],
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/rules-of-hooks": "error",    
+    "react-hooks/exhaustive-deps": 0
   },
   "plugins": [
     "html",
