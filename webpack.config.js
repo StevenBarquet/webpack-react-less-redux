@@ -13,7 +13,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'), // Genera ruta dependiendo tu SO, dist es una convencion donde van los js compilados
     // filename: 'papu-bundle-[name].js'
     filename: 'javascript/[name].js', // name corresponde a los nombres key de el objeto entry
-    publicPath: '/dist/'
+    publicPath: '/' // Path desde donde se van a solicitar recursos
   },
   // Crear shortcuts para paths absolutos
   resolve: {
@@ -105,7 +105,7 @@ module.exports = {
     }),
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, './src/index.html')
+      template: path.resolve(__dirname, './src/html/index.html')
     }),
     new webpack.DllReferencePlugin({
       manifest: require('./modules-manifest.json')

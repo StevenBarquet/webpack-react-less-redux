@@ -19,7 +19,7 @@ function Home(props) {
       <button type="button" onClick={handleclick}>
         Show Loaders
       </button>
-      {showList && loaders.map(item => <p>{item.name}</p>)}
+      {showList && loaders.map((item, index) => <p key={index}>{item.name}</p>)}
     </React.Fragment>
   );
 }
